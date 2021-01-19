@@ -5,7 +5,7 @@ cask "coteditor" do
   elsif MacOS.version <= :el_capitan
     version "3.5.4"
     sha256 "0b2cbf38cc531268e3691f307445e05ae5da64b48ceaf86c4d16b993c9be3e9f"
-  elsif MacOS.version = :high_sierra || :mojave
+  elsif MacOS.version == :high_sierra || :mojave
     version "3.9.7"
     sha256 "be34d4f800e73cc8363d8b83e1b257a06176dc85d345d680149b108f51686cf2"
   else
